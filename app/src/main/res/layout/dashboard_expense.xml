@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="125dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp"
+    android:elevation="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/dbExpenseCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Category"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#131212" />
+        <TextView
+            android:id="@+id/dbExpenseAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Amount"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#0E0E0E"
+            android:textColorHighlight="#FFFFFF" />
+        <TextView
+            android:id="@+id/dbExpenseDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

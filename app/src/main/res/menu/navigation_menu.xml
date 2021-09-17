@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/icHome"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/icIncome"
+        android:title="Income"
+        android:icon="@drawable/ic_income"/>
+    <item android:id="@+id/icExpense"
+        android:title="Expenses"
+        android:icon="@drawable/ic_expense"/>
+    <item android:id="@+id/icStatistic"
+        android:title="Statistics"
+        android:icon="@drawable/ic_stats"/>
+    <item android:id="@+id/icSignOut"
+        android:title="Sign Out"
+        android:icon="@drawable/ic_signout"/>
+
+</menu>
